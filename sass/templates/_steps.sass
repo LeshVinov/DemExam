@@ -1,0 +1,40 @@
+.steps
+    padding: 75px 0
+    background: $light
+    &__title
+        text-align: center
+        color: $lightbrown
+        font-size: 40px
+        margin-bottom: 50px
+    &-container
+        display: flex
+        justify-content: space-between
+        align-items: center
+        &__img
+            max-width: 550px
+            border-radius: 25px
+        &-list
+            &__title
+                font-style: italic
+                color: $gold
+                font-size: 30px
+                margin-bottom: 20px
+            &__item
+                list-style-type: none
+                position: relative
+                padding-left: 40px
+                font-size: 24px
+                margin-bottom: 15px
+                color: #e2caaa
+                &:last-of-type
+                    margin-bottom: 0
+                &::before
+                    content: ''
+                    position: absolute
+                    background: url('../img/barrel-marker.png') no-repeat center
+                    transform: rotate(90deg)
+                    top: -4px
+                    left: 0
+                    width: 40px
+                    height: 40px
+                    
