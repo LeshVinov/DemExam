@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <script src="./dist/main.js" defer></script>
     <title>Alone at home</title>
 </head>
 <body>
@@ -28,11 +29,11 @@
         <section class="search" id="form-search">
             <div class="container">
                 <div class="form-container">
-                    <h2 class="form__title">Поиск нужного дома для вас!</h2>
+                    <h2 class="form__title">Поиск дома</h2>
                     <p class="form__subtitle">Заполните форму и мы найдём самый лучший вариант</p>
                     <form action="#" class="form-form">
                         <div class="form-form-group">
-                            <label for="form-region" class="form-form__label">Выберите регион</label>
+                            <label for="form-search-region" class="form-form__label">Выберите регион</label>
                             <select name="Region" id="form-search-region" class="form-form__select">
                                 <option value="---" class="form-form__select" selected>---</option>
                                 <option value="Омская область" class="form-form__option">Омская область</option>
@@ -43,19 +44,19 @@
                         <!-- /.form-form-group -->
                         <div class="form-form__input--half">
                             <div class="form-form-group form-form-group--half">
-                                <label for="form-date-enter" class="form-form__label">Выберите дату заселения</label>
+                                <label for="form-search-date-enter" class="form-form__label">Выберите дату заселения</label>
                                 <input type="date" id="form-search-date-enter" class="form-form__input">
                             </div>
                             <!-- /.form-form-group -->
                             <div class="form-form-group form-form-group--half">
-                                <label for="form-date-exit" class="form-form__label">Выберите дату выселения</label>
+                                <label for="form-search-date-exit" class="form-form__label">Выберите дату выселения</label>
                                 <input type="date" id="form-search-date-exit" class="form-form__input">
                             </div>
                             <!-- /.form-form_group -->
                         </div>
                         <!-- /.form-form__input--half -->
                         <div class="form-form-group">
-                            <label for="form-persons" class="form-form__label">Количество свободных домов-бочек</label>
+                            <label for="form-search-persons" class="form-form__label">Количество свободных домов-бочек в этом регионе</label>
                             <input type="number" id="form-search-persons" class="form-form__input" readonly>
                         </div>
                         <!-- /.form-form-group -->

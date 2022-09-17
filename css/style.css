@@ -586,6 +586,7 @@ h1, h2, h3 {
   color: #f8c891;
   font-size: 30px;
   margin-bottom: 10px;
+  list-style: none;
 }
 
 .examples-desc__img {
@@ -725,6 +726,11 @@ h1, h2, h3 {
 .booking-people {
   padding: 50px 0;
   padding-bottom: 20px;
+}
+
+.booking-people-container {
+  padding-top: 20px;
+  border-bottom: 3px solid #886f53;
 }
 
 .booking-people__title {

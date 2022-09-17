@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <script src="./dist/main.js" defer></script>
     <title>Alone at home</title>
 </head>
 <body>
@@ -34,34 +35,37 @@
                 </div>
                 <!-- /.booking-people--half -->
                 <form action="#" class="booking-people-form">
-                    <div class="booking-people-form--half">
-                        <div class="booking-people-group booking-people-group--half">
-                            <label for="bookingPeopleSurname" class="booking-people__label">Фамилия</label>
-                            <input type="text" class="booking-people__input" id="bookingPeopleSurname" value="Иванов">
+                    <div class="booking-people-container">
+                        <div class="booking-people-form--half">
+                            <div class="booking-people-group booking-people-group--half">
+                                <label for="bookingPeopleSurname" class="booking-people__label">Фамилия</label>
+                                <input type="text" class="booking-people__input" id="bookingPeopleSurname" value="Иванов">
+                            </div>
+                            <!-- /.booking-people-group booking-people-group--half -->
+                            <div class="booking-people-group booking-people-group--half">
+                                <label for="bookingPeopleSurname" class="booking-people__label">Имя</label>
+                                <input type="text" class="booking-people__input" id="bookingPeopleName" value="Иван">
+                            </div>
+                            <!-- /.booking-people-group booking-people-group--half -->
                         </div>
-                        <!-- /.booking-people-group booking-people-group--half -->
-                        <div class="booking-people-group booking-people-group--half">
-                            <label for="bookingPeopleSurname" class="booking-people__label">Имя</label>
-                            <input type="text" class="booking-people__input" id="bookingPeopleSurname" value="Иван">
+                        <!-- /.booking-people-form--half -->
+                        <div class="booking-people-group">
+                            <label for="bookingPeoplePatr" class="booking-people__label">Отчество</label>
+                            <input type="text" class="booking-people__input" id="bookingPeoplePatr" value="Иванович">
                         </div>
-                        <!-- /.booking-people-group booking-people-group--half -->
+                        <!-- /.booking-people-group -->
+                        <div class="booking-people-group">
+                            <label for="bookingPeopleBorn" class="booking-people__label">Дата рождения</label>
+                            <input type="date" class="booking-people__input" id="bookingPeopleBorn">
+                        </div>
+                        <!-- /.booking-people-group -->
+                        <div class="booking-people-group">
+                            <label for="bookingPeopleDocs" class="booking-people__label">Номер документа</label>
+                            <input type="text" class="booking-people__input" id="bookingPeopleDocs">
+                        </div>
+                        <!-- /.booking-people-group -->
                     </div>
-                    <!-- /.booking-people-form--half -->
-                    <div class="booking-people-group">
-                        <label for="bookingPeoplePatr" class="booking-people__label">Отчество</label>
-                        <input type="text" class="booking-people__input" id="bookingPeoplePatr" value="Иванович">
-                    </div>
-                    <!-- /.booking-people-group -->
-                    <div class="booking-people-group">
-                        <label for="bookingPeopleBorn" class="booking-people__label">Дата рождения</label>
-                        <input type="date" class="booking-people__input" id="bookingPeopleBorn">
-                    </div>
-                    <!-- /.booking-people-group -->
-                    <div class="booking-people-group">
-                        <label for="bookingPeopleDocs" class="booking-people__label">Номер документа</label>
-                        <input type="text" class="booking-people__input" id="bookingPeopleDocs">
-                    </div>
-                    <!-- /.booking-people-group -->
+                    <!-- /.booking-people-container -->
                 </form>
                 <!-- /.booking-people-form -->
             </div>
